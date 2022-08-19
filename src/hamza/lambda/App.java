@@ -42,8 +42,6 @@ public class App {
 
         Function<Student, String> func = student -> student.getName() + " is " + student.getAge() + " years and " + student.getGender();
         System.out.println(func.apply(student1));
-
-
     }
 
     public static void get(List<Student> students, StudentFilter studentFilter) {
